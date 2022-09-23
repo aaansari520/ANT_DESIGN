@@ -1,12 +1,16 @@
 import "antd/dist/antd.css";
 import "./App.css";
 import {
+  AntAddSearchTabColumn,
   AntDatepicker,
+  AntFetchPaginatedData,
   AntForm,
+  AntFormValidation,
   AntPagination,
   AntProgressComp,
   AntSpin,
   AntTable,
+  AntTableExpand,
   Buttons,
   Inputs,
   SelectOp,
@@ -32,7 +36,15 @@ function App() {
 
         {/* <AntProgressComp /> */}
 
-        <AntPagination />
+        {/* <AntPagination /> */}
+
+        {/* <AntTableExpand /> */}
+
+        {/* <AntFormValidation /> */}
+
+        {/* <AntFetchPaginatedData /> */}
+
+        <AntAddSearchTabColumn />
       </header>
     </div>
   );
