@@ -11,6 +11,9 @@ import {
   AntSpin,
   AntTable,
   AntTableExpand,
+  Ant_Crud_Form,
+  Ant_Crud_Table,
+  Ant_File_Upload_Com,
   Buttons,
   Inputs,
   SelectOp,
@@ -33,18 +36,15 @@ function App() {
         <AntDatepicker /> 
 
         <AntSpin />*/}
-
         {/* <AntProgressComp /> */}
-
         {/* <AntPagination /> */}
-
         {/* <AntTableExpand /> */}
-
         {/* <AntFormValidation /> */}
-
         {/* <AntFetchPaginatedData /> */}
-
-        <AntAddSearchTabColumn />
+        {/* <AntAddSearchTabColumn /> */}
+        {/* <Ant_File_Upload_Com /> */}
+        {/* <Ant_Crud_Table /> */}
+        <Ant_Crud_Form />
       </header>
     </div>
   );
